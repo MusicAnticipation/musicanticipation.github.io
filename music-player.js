@@ -12,12 +12,6 @@
     "demo-example-2": "Schubert - Ave Maria",
   }
 
-  const nav = playerEl.querySelector('.mynav');
-
-  if (maxIdx === 1) {
-    nav.style.display = 'none';
-  }
-
   function getExampleTitle(playerId, idx) {
     const key = `${playerId}-${idx}`;
     let title = '';
