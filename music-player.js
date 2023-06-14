@@ -160,6 +160,12 @@
         }
       });
 
+      const nav = playerEl.querySelector('.mynav');
+
+      if (maxIdx === 1) {
+        nav.style.display = 'none';
+      }
+
       playerDivEl.appendChild(playerEl);
     });
 
